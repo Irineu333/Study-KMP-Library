@@ -1,4 +1,4 @@
-package org.jetbrains.base64
+package com.neo.base64
 
 import java.util.Base64
 

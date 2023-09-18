@@ -1,4 +1,4 @@
-package org.jetbrains.base64
+package com.neo.base64
 
 object JsBase64Encoder : Base64Encoder {
     override fun encode(src: ByteArray): ByteArray {

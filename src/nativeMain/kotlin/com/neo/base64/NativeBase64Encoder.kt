@@ -1,4 +1,4 @@
-package org.jetbrains.base64
+package com.neo.base64
 
 private const val BASE64_ALPHABET: String = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
 private const val BASE64_MASK: Byte = 0x3f

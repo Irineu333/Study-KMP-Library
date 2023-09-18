@@ -3,7 +3,6 @@ package org.jetbrains.base64
 private const val BASE64_ALPHABET: String = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
 private const val BASE64_MASK: Byte = 0x3f
 private const val BASE64_PAD: Char = '='
-private val BASE64_INVERSE_ALPHABET = IntArray(256) { BASE64_ALPHABET.indexOf(it.toChar())}
 
 private fun Int.toBase64(): Char = BASE64_ALPHABET[this]
 

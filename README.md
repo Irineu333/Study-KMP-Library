@@ -1,8 +1,10 @@
 # [Study] KMP Library Template
-Creating a KMP (Kotlin Multiplatform) project using the KMP -> Library template, which automatically applies the `kotlin-multiplatform` Gradle plugin.
+Creating a Kotlin Multiplatform project using the Library template by Intellij, which automatically implement the `kotlin-multiplatform` plugin, to learn about the structure of a KMP project.
+
+![start.png](start.png)
 
 ## Case Study
 Creating a multiplatform library (JVM, JavaScript, and Native) for encoding strings into base 64.
 
 ## Source
-- https://kotlinlang.org/docs/multiplatform-library.html
+- [Create and publish a multiplatform library – tutorial](https://kotlinlang.org/docs/multiplatform-library.html)
